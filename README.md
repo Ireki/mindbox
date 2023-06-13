@@ -12,6 +12,6 @@
              p.Name,
              c.Name
       from Products p
-           left join ProductCategory pc on p.Id = pc.ProductId
-           left join Category c on pc.CategoryId = c.Id
+      left join ProductCategory pc on p.Id = pc.ProductId
+      left join Category c on pc.CategoryId = c.Id
 ```
